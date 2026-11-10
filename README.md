@@ -108,9 +108,6 @@ A machine learning model that predicts the likelihood of diabetes from patient h
 
 ## 🌷 Contribution Activity
 
-
-## 🌷 Contribution Activity
-
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=snehatiwari338578-sys&bg_color=0D1117&color=F8BBD0&line=EF93C4&point=FF69B4&area=true&hide_border=true" width="95%" alt="Contribution Graph">
 </p>
