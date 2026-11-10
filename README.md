@@ -1,10 +1,8 @@
 # 💗 Sneha Tiwari | GitHub Profile
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="art/github-header-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="art/github-header-light.png">
-  <img src="art/github-header-dark.png" width="100%" alt="Sneha Tiwari GitHub Banner">
-</picture>
+<p align="center">
+  <img src="header-dark.svg" width="100%" alt="Sneha Tiwari GitHub Banner">
+</p>
 
 <h1 align="center">Hey there, I'm Sneha Tiwari 👋</h1>
 
