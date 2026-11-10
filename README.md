@@ -121,46 +121,7 @@ A machine learning model that predicts the likelihood of diabetes from patient h
   <img src="https://raw.githubusercontent.com/snehatiwari338578-sys/snehatiwari338578-sys/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake">
 </p>
 
-<!-- 
-To enable the contribution snake:
 
-Create .github/workflows/snake.yml in your profile repository.
-Add the workflow below and run it from GitHub Actions.
--->
-
-```yaml
-name: Generate Contribution Snake
-
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-
-permissions:
-  contents: write
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Generate Snake
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Deploy Snake
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
----
 
 ## 💌 Connect With Me
 
